@@ -1,4 +1,4 @@
-# SporeRankingProgram
+# SportRankingProgram
 
 Problem
 
