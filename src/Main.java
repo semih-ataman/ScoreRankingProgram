@@ -86,22 +86,22 @@ public class Main {
 	}
 
 	public static void appendExistingHomeSport(Sports home, int homeScore, int awayScore) { // This method is called
-		// when
-		// there is specified home
-		// sport object in the
-		// system which means
-		// (home != null)
+		                                                                                // when
+		                                                                                // there is specified home
+		                                                                                // sport object in the
+		                                                                                // system which means
+		                                                                                // (home != null)
 		home.addTotalScoredAgainstTeam(homeScore);
 		home.addTotalScoredItself(awayScore);
 		home.addTotalPoint(homeScore, awayScore);
 	}
 
 	public static void appendExistingAwaySport(Sports away, int homeScore, int awayScore) { // This method is called
-		// when
-		// there is specified away
-		// sport object in the
-		// system which means
-		// (away != null)
+		                                                                                // when
+		                                                                                // there is specified away
+		                                                                                // sport object in the
+		                                                                                // system which means
+		                                                                                // (away != null)
 		away.addTotalScoredAgainstTeam(awayScore);
 		away.addTotalScoredItself(homeScore);
 		away.addTotalPoint(awayScore, homeScore);
