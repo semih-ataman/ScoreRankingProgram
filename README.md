@@ -1,4 +1,4 @@
-# ScoreRankingProgram
+# SporeRankingProgram
 
 Problem
 
