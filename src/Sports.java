@@ -4,10 +4,7 @@ import java.util.Comparator;
  * @author Semih Ataman
  * @since 17-April-2021
  */
-/**
- * @author Semih
- *
- */
+
 public class Sports implements Comparable<Object> {
 
 	private String name;
